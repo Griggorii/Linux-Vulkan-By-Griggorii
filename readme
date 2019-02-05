@@ -1,2 +1,16 @@
 My OS 5.0 16.04 выборка файлов из неё https://www.youtube.com/watch?v=Z03qsPzD2Y0
 Для OS 5.0 18.10 миграция файлов
+
+OS 5.0 18.10 inpack aphive / 
+
+Manual https://ubuntugeeks.com/questions/25510/how-to-install-intel-graphics-driver-for-using-vulkan-on-ubuntu-16-04
+
+My logic idea Radeon replace name run test 
+
+Intel
+
+sudo ln -s /usr/lib/x86_64-linux-gnu/mesa/libvulkan_intel.so /usr/lib/x86_64-linux-gnu/libvulkan_intel.so
+
+Radeon
+
+sudo ln -s /usr/lib/x86_64-linux-gnu/mesa/libvulkan_radeon.so /usr/lib/x86_64-linux-gnu/libvulkan_radeon.so
