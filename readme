@@ -7,10 +7,14 @@ Manual https://ubuntugeeks.com/questions/25510/how-to-install-intel-graphics-dri
 
 My logic idea Radeon replace name run test 
 
+---------------------------------------------------------------------------------------------------------------
+
 Intel
 
-sudo ln -s /usr/lib/x86_64-linux-gnu/mesa/libvulkan_intel.so /usr/lib/x86_64-linux-gnu/libvulkan_intel.so
+&& sudo ln -s /usr/lib/x86_64-linux-gnu/mesa/libvulkan_intel.so /usr/lib/x86_64-linux-gnu/libvulkan_intel.so
+
+---------------------------------------------------------------------------------------------------------------
 
 Radeon
 
-sudo ln -s /usr/lib/x86_64-linux-gnu/mesa/libvulkan_radeon.so /usr/lib/x86_64-linux-gnu/libvulkan_radeon.so
+&& sudo ln -s /usr/lib/x86_64-linux-gnu/mesa/libvulkan_radeon.so /usr/lib/x86_64-linux-gnu/libvulkan_radeon.so
